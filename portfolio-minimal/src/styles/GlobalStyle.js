@@ -1,8 +1,8 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components"
 import modernNormalize from "styled-modern-normalize"
 
 const GlobalStyle = createGlobalStyle`
-    
+
     // Import normalize.css
     ${modernNormalize}
 
@@ -61,7 +61,7 @@ const GlobalStyle = createGlobalStyle`
         color: ${({ theme }) => theme.colors.primary};
         @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
             font-size: 2.625rem;
-            line-height: 4rem;
+            line-height: 3rem;
         }
     }
 
@@ -79,7 +79,7 @@ const GlobalStyle = createGlobalStyle`
     h3 {
         font-weight: 700;
         font-size: 1.75rem;
-        line-height: 2.25rem;
+        line-height: 0.01rem;
         color: ${({ theme }) => theme.colors.primary};
         margin-bottom: 3rem;
     }
@@ -97,6 +97,6 @@ const GlobalStyle = createGlobalStyle`
         opacity: 0.1;
       }
 
-`;
+`
 
 export default GlobalStyle

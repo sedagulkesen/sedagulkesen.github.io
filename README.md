@@ -1,1 +1,0 @@
-# sedagulkesen.github.io

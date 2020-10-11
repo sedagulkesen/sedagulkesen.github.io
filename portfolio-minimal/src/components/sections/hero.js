@@ -22,7 +22,7 @@ const StyledContentWrapper = styled(ContentWrapper)`
   && {
     width: 100%;
     height: 100%;
-    min-height: 60vh;
+    min-height: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -108,8 +108,14 @@ const Hero = ({ content }) => {
           <h1 className="title">
             <div className="greetings">
               {frontmatter.greetings}
-              {/* <motion.div animate={eControls} style={{ originX: 0.7, originY: 0.7 }}>
-                <Img className="emoji" fluid={frontmatter.icon.childImageSharp.fluid} />
+              {/* <motion.div
+                animate={eControls}
+                style={{ originX: 0.7, originY: 0.7 }}
+              >
+                <Img
+                  className="emoji"
+                  fluid={frontmatter.icon.childImageSharp.fluid}
+                />
               </motion.div> */}
             </div>
             {frontmatter.title}
