@@ -15,8 +15,8 @@ const Icon = ({ name, color }) => {
       return <IconXing color={color} />
     case "linkedin":
       return <IconLinkedIn color={color} />
-    case "medium":
-      return <IconMedium color={color} />
+    // case "medium":
+    //   return <IconMedium color={color} />
     case "github":
       return <IconGitHub color={color} />
     case "behance":
